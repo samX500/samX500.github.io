@@ -62,6 +62,13 @@ timezone: Europe/London # Timezone for blog posts and alike
 
 # 5. Collections
 collections:
+  lessons:
+    title: Daily Japanese Lesson 
+    output: true
+    description: "Small lessons that I write everyday to stick to my studies" 
+    feature_text: |
+      Daily Japanese Lesson
+    feature_image: "https://picsum.photos/2560/600?image=866"
   posts:
     title: Posts # Needed for Siteleaf
     output: true
@@ -69,6 +76,7 @@ collections:
     feature_text: |
       Welcome to the blog
     feature_image: "https://picsum.photos/2560/600?image=866"
+ 
 
 # 6. Jekyll collections settings
 defaults:
@@ -89,6 +97,12 @@ defaults:
       type: "pages"
     values:
       layout: page # Set the default layout for pages
+  -
+    scope:
+      path: ""
+      type: "lessons"
+    values:
+      layout: lesson # Set the default layout for lesson
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
@@ -127,8 +141,8 @@ navigation_header:
   url: /daily_japanese_lesson/
 - title: About
   url: /about/
-#- title: Blog
-#  url: /blog/
+- title: Blog
+  url: /blog/
 #- title: Categories
 #  url: /categories/
 #- title: Search
