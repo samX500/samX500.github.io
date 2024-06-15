@@ -6,8 +6,8 @@ feature_image: "https://picsum.photos/2560/600?image=873"
 excerpt: ""
 ---
 
-When I began learning Japanese, I decided that every single day I would write for myself a short lesson. These lessons could be about anything, they are often simple rephrasing of other Japanese blog, somtimes it is a translation of some sentence I came accross and some other times it was just anything other related to Japanese. This was to start forming a hard to break habit of learning more about the language everyday. 
+Hi, I am a begginer Japanese learner. At the time of writing this post, I have been learning Japanese for about a year and half. In this time, I have made some progress towards my goal of one day speaking Japanese, but I still have a long way to go.
 
-At first, these lessons were intended only as a study tool for myself, but a friend of mine suggested that I share them on a blog. I don't think these lessons are of such good quality to publish, since they are hastily made to fit in my daily schedule and I am still not very good in Japanese, but I warmed up to the idea of publishing them anyway. If anything this site will serve as an interesting journey of someone trying to learn Japanese.
+I believe that one of the best way to learn anything is to try to explain it to yourself. So up until now, I have been writing tiny lessons dedicated to myself. I have shared these lessons to a friend of mine who suggested that I should start a blog.
 
-Along with the date each post is made, I have decided to also include the time it has been between that post and me starting Japanese.
+This blog will contain lessons mostly aimed at my own self-growth in Japanese, as well as some extra ressource that I would find handy as a Japanese learner..

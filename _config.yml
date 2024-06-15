@@ -62,20 +62,21 @@ timezone: Europe/London # Timezone for blog posts and alike
 
 # 5. Collections
 collections:
-  lessons:
-    title: Daily Japanese Lesson 
-    output: true
-    description: "Small lessons that I write everyday to stick to my studies" 
-    feature_text: |
-      Daily Japanese Lesson
-    feature_image: "https://picsum.photos/2560/600?image=866"
   posts:
     title: Posts # Needed for Siteleaf
     output: true
-    description: "My thoughts and ideas" # The post list page content
+    description: "Japanese lessons" # The post list page content
     feature_text: |
       Welcome to the blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
+    feature_image: "/assets/mount-fuji.jpg"
+
+  extras:
+    title: Extras
+    output: true
+    description: "Extra ressource"
+    feature_text: |
+      Welcome to the extra ressource
+    feature_image: "/assets/mount-fuji.jpg"
  
 
 # 6. Jekyll collections settings
@@ -103,6 +104,13 @@ defaults:
       type: "lessons"
     values:
       layout: lesson # Set the default layout for lesson
+  -
+    scope:
+      path: ""
+      type: "extras"
+    values:
+      layout: extra # Set the default layout for extra
+
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
@@ -137,12 +145,12 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 navigation_header:
 - title: Home
   url: /
-- title: Daily Japanese Lesson
-  url: /daily_japanese_lesson/
 - title: About
   url: /about/
 - title: Blog
   url: /blog/
+- title: Extra
+  url: /extra/
 #- title: Categories
 #  url: /categories/
 #- title: Search
