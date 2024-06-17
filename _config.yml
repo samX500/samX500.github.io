@@ -69,15 +69,6 @@ collections:
     feature_text: |
       Welcome to the blog
     feature_image: "/assets/mount-fuji.jpg"
-
-  extras:
-    title: Extras
-    output: true
-    description: "Extra ressource"
-    feature_text: |
-      Welcome to the extra ressource
-    feature_image: "/assets/mount-fuji.jpg"
-    permalink: /extra/posts
  
 
 # 6. Jekyll collections settings
@@ -105,12 +96,6 @@ defaults:
       type: "lessons"
     values:
       layout: lesson # Set the default layout for lesson
-  -
-    scope:
-      path: ""
-      type: "extras"
-    values:
-      layout: extra # Set the default layout for lesson
 
 
 # 7. Site settings
@@ -148,10 +133,8 @@ navigation_header:
   url: /
 - title: About
   url: /about/
-- title: Post
-  url: /post/
-- title: Extra
-  url: /extra/
+- title: Blog
+  url: /blog/
 #- title: Categories
 #  url: /categories/
 #- title: Search

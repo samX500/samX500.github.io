@@ -218,6 +218,8 @@ a {
     font-style: normal;
     font-weight: map-get($headingtype, regular);
     width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1em;
 
     thead {
 
@@ -227,6 +229,25 @@ a {
       }
     }
   }
+
+
+th, td {
+  padding: 0.75em;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
 
   // Bold.
   b, strong, .bold {
