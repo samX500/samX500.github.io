@@ -10,13 +10,14 @@ In Japanese, there are a lot of adverbs that follow a similar format. They are c
 
 If you want to look at a more exhaustive list, I recommand looking up the original post by [imabi.net](https://imabi.org/4-morae-adverbs/){:target="_blank"}. There is also a [reddit post](https://www.reddit.com/r/LearnJapanese/comments/tprdou/comment/i2cst8o/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button){:target="_blank"} that lists them based on their frequency in the netflix corpus.
 
-|Adverb|  Meaning          |
-|:-----|:------------------|
+|Adverb  | Meaning           |
+|:-------|:------------------|
 |そっくり  | Entirely          |
 |はっきり  | Clearly           |
 |しっかり  | Tightly           |
 |すっかり  | Completely        |
-|がっかり  | To be disapointed  |
+|がっかり  | To be disapointed |
 |こっそり  | Secretely         |
 |うっかり  | Carelessly        |
 |じっくり  | Meticulously      |
+|すっきり  | Refreshingly      |
